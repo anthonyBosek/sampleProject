@@ -1,5 +1,12 @@
+import Container from "../components/Container";
+
 const ContentPage = () => {
-  return <div>ContentPage</div>;
+  return (
+    <div>
+      <h1>ContentPage</h1>
+      <Container />
+    </div>
+  );
 };
 
 export default ContentPage;
