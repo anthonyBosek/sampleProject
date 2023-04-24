@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import HomePage from "./views/HomePage";
 import ContentPage from "./views/ContentPage";
+import ExamplePage from "./views/ExamplePage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/content" element={<ContentPage />} />
+          <Route path="/example" element={<ExamplePage />} />
         </Routes>
       </BrowserRouter>
     </div>
