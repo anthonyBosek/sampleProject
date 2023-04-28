@@ -5,6 +5,7 @@ const ContentPage = () => {
     <div>
       <h1>ContentPage</h1>
       <h2>sample info</h2>
+      <h2>sample info</h2>
       <Container />
     </div>
   );
