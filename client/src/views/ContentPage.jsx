@@ -4,6 +4,7 @@ const ContentPage = () => {
   return (
     <div>
       <h1>ContentPage</h1>
+      <h2>sample info</h2>
       <Container />
     </div>
   );
